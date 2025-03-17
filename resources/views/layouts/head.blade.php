@@ -11,6 +11,9 @@
   <link rel="stylesheet" href="{{asset('plugins/overlayScrollbars/css/OverlayScrollbars.min.css')}}">
   <!-- Theme style -->
   <link rel="stylesheet" href="{{asset('dist/css/adminlte.min.css')}}">
-
+  <!-- toastr -->
+  <link rel="stylesheet" href="{{asset('build/toastr.min.css')}}">
+  <!-- DataTables CSS -->
+  <link href="https://cdn.datatables.net/2.2.2/css/dataTables.dataTables.min.css" rel="stylesheet">
   @stack('css')
 </head>
