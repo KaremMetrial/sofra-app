@@ -51,6 +51,14 @@
             </p>
           </a>
         </li>
+         <li class="nav-item">
+          <a href="{{ route('admin.cities.index') }}" class="nav-link  @if(request()->Is('admin/cities*')) active @endif">
+            <i class="nav-icon fas fa-map-marked-alt"></i>
+            <p>
+              Cities
+            </p>
+          </a>
+        </li>
       </ul>
     </nav>
     <!-- /.sidebar-menu -->

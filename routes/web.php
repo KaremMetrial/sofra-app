@@ -5,6 +5,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Web\{
   HomeController,
   GovernorateController,
+  CityController,
 };
 
 Route::group(['prefix' => 'admin', 'as' => 'admin.'],function() {
@@ -14,6 +15,8 @@ Route::group(['prefix' => 'admin', 'as' => 'admin.'],function() {
   //governorates
   Route::resource('governorates', GovernorateController::class);
 
+  //Cities
+  Route::resource('cities', CityController::class);
 });
 
 
